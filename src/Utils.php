@@ -56,7 +56,7 @@ class Utils {
         }
 
         return array('shopperIpAddress' => Utils::getClientIp(),
-                     'shopperSessionId' => $_SESSION['worldpay_sessionid'],
+                     'shopperSessionId' => WorldPaySessionHandler::get('worldpay_sessionid'),
                      'shopperUserAgent' => isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '',
                      'shopperAcceptHeader' => isset($_SERVER['HTTP_ACCEPT']) ? $_SERVER['HTTP_ACCEPT'] : '*/*'
         );

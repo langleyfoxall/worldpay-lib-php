@@ -43,7 +43,7 @@ class Order extends AbstractOrder
         }
 
         if ($this->is3DSOrder) {
-            $_SESSION['worldpay_sessionid'] = uniqid();
+            WorldPaySessionHandler::put('worldpay_sessionid', uniqid());
             $threeDSShopper = Utils::getThreeDSShopperObject();
             $this->shopperIpAddress = $threeDSShopper['shopperIpAddress'];
             $this->shopperSessionId = $threeDSShopper['shopperSessionId'];
