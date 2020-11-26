@@ -1,8 +1,8 @@
 <?php
 
-namespace Worldpay\SessionDrivers;
+namespace LangleyFoxall\Worldpay\SessionDrivers;
 
-use Worldpay\Interfaces\SessionDriverInterface;
+use LangleyFoxall\Worldpay\Interfaces\SessionDriverInterface;
 
 class NativePHPSessionDriver implements SessionDriverInterface
 {

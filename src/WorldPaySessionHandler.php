@@ -3,7 +3,7 @@
 namespace LangleyFoxall\Worldpay;
 
 use Exception;
-use Worldpay\Interfaces\SessionDriverInterface;
+use LangleyFoxall\Worldpay\Interfaces\SessionDriverInterface;
 
 abstract class WorldPaySessionHandler
 {

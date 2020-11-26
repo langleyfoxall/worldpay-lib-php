@@ -1,6 +1,6 @@
 <?php
 
-namespace Worldpay\Interfaces;
+namespace LangleyFoxall\Worldpay\Interfaces;
 
 interface SessionDriverInterface
 {
