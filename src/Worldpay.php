@@ -1,6 +1,6 @@
 <?php
 
-namespace Worldpay;
+namespace LangleyFoxall\Worldpay;
 
 /**
  * PHP library version: 2.1.0

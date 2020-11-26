@@ -1,27 +1,19 @@
 {
-    "name": "worldpay/worldpay-lib-php",
+    "name": "langleyfoxall/worldpay-lib-php",
     "type": "library",
     "description": "Worldpay PHP Library",
     "keywords": [
     	"worldpay",
     	"payments",
-    	"api",
-        "uiisthebest"
+    	"api"
     ],
-    "authors": [
-	    {
-	      "name": "Worldpay",
-	      "homepage": "https://online.worldpay.com"
-	    }
-	],
-    "homepage": "https://online.worldpay.com",
     "license": "MIT",
-    "version": "2.1.2",
     "autoload": {
-        "psr-4": {"Worldpay\\": "lib/"}
+        "psr-4": {"LangleyFoxall\\Worldpay\\": "src/"}
     },
     "require": {
-        "php": ">=5.3.0",
-        "ext-curl": "*"
+        "php": ">=7.1",
+        "ext-curl": "*",
+        "laravel/framework": "^5.7||^6.0||^7.0||^8.0"
     }
 }

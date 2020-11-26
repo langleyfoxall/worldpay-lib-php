@@ -1,5 +1,5 @@
 <?php
-namespace Worldpay;
+namespace LangleyFoxall\Worldpay;
 
 abstract class AbstractOrder {
 

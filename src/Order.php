@@ -1,5 +1,5 @@
 <?php
-namespace Worldpay;
+namespace LangleyFoxall\Worldpay;
 
 define("ORDER_TYPES", serialize(array("ECOM", "MOTO", "RECURRING")));
 

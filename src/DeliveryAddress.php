@@ -1,5 +1,5 @@
 <?php
-namespace Worldpay;
+namespace LangleyFoxall\Worldpay;
 
 class DeliveryAddress extends AbstractAddress
 {
